@@ -1,0 +1,187 @@
+#show-drop {
+  padding: 30px;
+  border-radius: 5px;
+  height: inherit;
+  width: 100%;
+}
+
+#show-drop.card {
+  padding: 0;
+  margin: 10px;
+}
+
+#edit,
+#show-history,
+#on-delete {
+  border: none;
+}
+
+#edit-text {
+  width: 85%;
+  margin-left: 5em;
+  margin-top: -3em;
+}
+
+#reply-button {
+  display: inline;
+  margin-bottom: 50%;
+  margin-left: -40px;
+  padding-bottom: -3em;
+}
+
+.row.reply-row {
+  margin: 0;
+}
+
+.reply {
+  display: inline-block;
+}
+
+#thread-button,
+#show-reply {
+  border: none;
+  display: inline;
+  margin-left: 8%;
+  font-size: medium;
+}
+
+#cancel,
+#reply {
+  border: none;
+  font-size: small;
+}
+
+.card.form-reply {
+  margin-left: 28%;
+}
+
+#comments {
+  margin-top: 40px;
+  max-width: 90%;
+}
+
+#comment-form {
+  width: 80%;
+}
+
+#date-created {
+  max-width: 5%;
+}
+
+#comment-body {
+  margin-left: 1%;
+  width: 80%;
+}
+
+#comment-text {
+  width: 100%;
+  overflow: auto;
+  margin-bottom: 0.3em;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 2.1rem;
+}
+
+.container-main {
+  width: 60%;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.card-comment {
+  max-width: 800px;
+  display: inline-block;
+}
+
+.thread {
+  display: inline-block;
+  width: 80%;
+  font-size: larger;
+  margin-left: 5%;
+  margin-bottom: 4%;
+  margin-top: -2%;
+}
+
+.form-reply {
+  width: 70%;
+  margin-left: 30%;
+}
+
+.edit-comment {
+  margin-top: -1em;
+  margin-bottom: 5%;
+  padding-right: 6em;
+  border: none;
+}
+
+.history-body {
+  font-size: medium;
+  margin-top: 0;
+  padding-top: 0;
+  margin-left: 20px;
+  margin-bottom: 2em;
+}
+
+.history {
+  margin-left: 30px;
+}
+
+.history-date {
+  font-style: italic;
+  margin-bottom: 0;
+  font-size: smaller;
+}
+
+.cancel {
+  display: inline-block;
+}
+
+.cancel-edit {
+  margin-top: -1em;
+  margin-bottom: 5%;
+  border: none;
+}
+
+.visible {
+  display: block;
+}
+
+.row {
+  border-radius: 2px;
+}
+
+.thread-avatar {
+  height: 50px;
+  max-width: 50px;
+  border-radius: 50%;
+  margin-top: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.date-text {
+  margin-left: 6%;
+  font-size: small;
+  display: inline-block;
+}
+
+.input-field {
+  max-width: 90%;
+}
+
+.history.visible {
+  max-width: 60%;
+  margin-left: 20%;
+}
+
+.history-text {
+  margin-top: -20px;
+  margin-left: -60px;
+}
+
+.card.form-reply.thread {
+  margin-left: 120px;
+}

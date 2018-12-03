@@ -1,0 +1,613 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+//Variables
+$error-color: #f00;
+$form-color: #fff;
+$section-color: #ffd800;
+$teal: #008080;
+$slider-content-border: rgba(255, 255, 255, 0.5);
+$white: #fff;
+$article-border-bottom: #ccc;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Oxygen", "Helvetica Neue", "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    "Courier New",
+    monospace;
+}
+//Variables
+$error-color: #f00;
+// $background-body: #eeeeee;
+$form-color: #fff;
+
+//Variables
+$error-color: #f00;
+$background-body: #eee;
+$form-color: #fff;
+$text-color: #008080;
+
+.centered {
+  background-color: $form-color;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  width: 350px;
+}
+
+@media screen and (max-width: 800px) {
+  .center {
+    font-size: 50px;
+    width: 85%;
+  }
+}
+
+.input-field label {
+  height: 1px;
+}
+
+.nav {
+  margin-bottom: 50px;
+}
+
+.center-btn {
+  margin-left: 200%;
+}
+
+.alert-err {
+  color: $error-color;
+  font-size: 18px;
+  font-weight: 100;
+  margin-left: 5%;
+  text-align: left;
+}
+
+.msg {
+  color: $text-color;
+}
+
+.verification {
+  color: $error-color;
+  font-weight: 900;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.profile,
+.edit-profile {
+  margin-top: 20px;
+}
+
+.logo a {
+  font-size: 40px;
+  font-family: 'Sacramento', cursive;
+  color: teal;
+}
+
+@media screen and (max-width: 800px) {
+  .brand-logo {
+    width: 100%;
+  }
+
+  .logo a {
+    font-size: 35px;
+  }
+}
+
+.nav-wrapper a {
+  color: teal;
+}
+
+.logout-tag:hover {
+  cursor: pointer;
+}
+
+.user-image img {
+  border-radius: 50%;
+  height: 140px;
+  width: 140px;
+  cursor: pointer;
+}
+
+#progress-bar {
+  margin-top: -6px;
+}
+
+.edit-button {
+  padding: 20px 0 0 15px;
+  width: auto;
+}
+
+.edit-button .btn,
+.update-button .btn {
+  color: teal;
+  background-color: #fff;
+  border: 1px solid teal;
+  border-radius: 5px;
+}
+
+.edit-button .btn:hover {
+  color: #fff;
+  background-color: teal;
+}
+
+#follow-btn {
+  color: #fff;
+  background-color: teal;
+  border-radius: 5px;
+}
+
+.update-button {
+  padding: 20px 0 0 15px;
+}
+
+.username {
+  color: teal;
+}
+
+.collection {
+  border-radius: 5px;
+  margin-top: 1px;
+}
+
+#follow-button {
+  color: teal;
+  background-color: #fff;
+  border: 1px solid teal;
+  border-radius: 5px;
+  padding: 0 5px;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+#following-button {
+  color: #fff;
+  background-color: teal;
+  border-radius: 5px;
+  padding: 0 5px;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.user-data {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.file-input {
+  display: none;
+}
+
+.edit-icon {
+  color: teal;
+  margin: 0 0 0 -30px;
+  cursor: pointer;
+}
+
+#cancel-button {
+  color: #bbb;
+  background-color: #fff;
+  border-color: #bbb;
+  margin-left: 12px;
+}
+
+@media screen and (max-width: 800px) {
+  .edit-button .btn {
+    font-size: 10px;
+    width: auto;
+  }
+
+  .user-image img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+  }
+
+  #edit-button,
+  #cancel-button {
+    width: auto;
+  }
+}
+
+#username {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 8px 0 0 0;
+}
+
+#bio {
+  margin-top: 0;
+}
+
+.Avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.inline-error {
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.ratings {
+  position: relative;
+}
+
+.signupsuccess {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.forgot {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.menu {
+  height: 50px;
+  border-bottom: 1px solid #bbb;
+  margin-top: 10px;
+}
+
+.interaction a {
+  color: teal;
+}
+
+.tabs .tab a {
+  color: #bbbb;
+}
+
+.tabs .indicator {
+  background-color: teal;
+  width: 50%;
+}
+
+.user-articles {
+  .article {
+    border-bottom: 1px solid $article-border-bottom;
+    float: left;
+    margin-bottom: 40px;
+    padding-bottom: 45px;
+    width: 100%;
+
+    .img-wrapper {
+      background-size: cover !important;
+      float: left;
+      height: 250px;
+      margin: 10px 20px 0 0;
+      width: 400px;
+    }
+
+    a {
+      color: $teal;
+      font-size: 16px;
+    }
+
+    .article-title a {
+      font-size: 25px;
+    }
+
+    p {
+      padding: 0 20px 0 2px;
+    }
+
+    @media only screen and (max-width: 670px) {
+      .img-wrapper {
+        height: 170px;
+        width: 100%;
+      }
+
+      p {
+        padding: 0;
+      }
+    }
+  }
+}
+
+.featured {
+  .img-wrapper img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.tabs .tab {
+  margin: 0 5px 0 5px;
+}
+
+.tabs .tab a:focus,
+.tabs .tab a.active,
+.tabs .tab a:hover {
+  color: $teal;
+  background-color: transparent;
+  border-bottom: 2px solid $teal;
+  cursor: pointer;
+}
+
+.stories {
+  margin-bottom: 30px;
+}
+
+#date-created p {
+  color: #bbb;
+  margin-top: 0;
+}
+
+.stories #stories-title p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.the-story-content {
+  margin: 20px;
+}
+
+#stories-content {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin: 10px;
+}
+
+#stories-content #title p {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 5px 0 0 0;
+}
+
+#stories-content #content p {
+  margin-top: 2px;
+}
+
+.user {
+  margin: 0;
+}
+
+#user-information {
+  display: inline-flex;
+}
+
+#user-information .user-image img {
+  border-radius: 50%;
+  height: 65px;
+  width: 65px;
+}
+
+#user-information .user {
+  margin: 5px 0 0 9px;
+}
+
+#user-information #user-username p {
+  margin-bottom: 1px;
+}
+
+#following a {
+  color: #bbb;
+  margin: 10px 50px 5px 0;
+}
+
+#following a:hover {
+  color: $teal;
+}
+
+.the-story-content #content a {
+  color: $teal;
+}
+
+.the-story-content #user-username a {
+  color: #000;
+}
+
+.the-story-content #user-username a:hover {
+  color: $teal;
+}
+
+#icons {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: $teal;
+}
+
+#thumb-up-like,
+#thumb-down-dislike {
+  color: $teal;
+}
+
+.interaction {
+  display: flex;
+  justify-content: space-between;
+}
+
+#likes #icons {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: $teal;
+}
+
+$section-color: #ffd800;
+$teal: #008080;
+$slider-content-border: rgba(255, 255, 255, 0.5);
+$white: #fff;
+$article-border-bottom: #ccc;
+
+.active {
+  color: teal !important;
+}
+
+#bookmark {
+  top: 500px;
+  position: fixed;
+  right: 99px;
+}
+
+.bookmarks i {
+  color: teal;
+  cursor: pointer;
+  font-size: 35px;
+}
+
+#icon_bookmark {
+  background: #fff !important;
+  color: white;
+  filter: drop-shadow(0 5px 5px rgba(1, 1, 0, 0.1));
+}
+
+.bookmark-msg {
+  color: $teal;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.navigation {
+  margin-top: 20px;
+}
+
+.rating {
+  margin-right: 0;
+}
+
+.rate {
+  margin-top: 30px;
+  margin-left: 0;
+}
+
+.fav {
+  margin: 0;
+}
+
+#clickable {
+  cursor: pointer;
+  margin-right: 15px;
+  margin-top: 25px;
+  border-radius: 15px;
+}
+
+.drop {
+  position: absolute;
+  top: 50px;
+  right: 30px;
+  width: 100px;
+  text-align: center;
+
+  #card-content {
+    padding: 0;
+  }
+}
+
+.card-threads {
+  border-radius: 2px;
+  //margin-left: -40px;
+  width: 100%;
+  padding-top: 0;
+  margin-top: -1%;
+  padding-left: 5px;
+  font-size: small;
+}
+
+.circle-thread {
+  max-height: 70px;
+}
+
+.card-reply {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  padding-bottom: 10px;
+  margin-bottom: 2.5em;
+}
+
+.card-username {
+  width: 30%;
+  font-weight: bold;
+  font-size: smaller;
+}
+
+.card-body {
+  width: 80%;
+  font-size: smaller;
+}
+
+.card-user {
+  width: 70%;
+  font-weight: bold;
+  font-size: larger;
+  margin-top: 0;
+}
+
+.card-main {
+  width: 600px;
+  font-size: large;
+  display: inline-block;
+  margin-top: 5%;
+  margin-bottom: 5px;
+}
+
+.average {
+  color: orange;
+  margin-top: -20px;
+}
+
+.no-average {
+  color: grey;
+  margin-top: -20px;
+}
+
+.rating-text {
+  margin-left: 32px;
+  margin-top: -62px;
+  padding-top: 0;
+}
+
+.average-rating-font {
+  font-size: 14px;
+}
+
+#social-sharing {
+  top: 300px;
+  position: fixed;
+  right: 100px;
+  cursor: pointer;
+}
+
+.share-icons {
+  margin-bottom: 18px;
+}
+
+.notification-subscription {
+  margin-left: 10%;
+  border-radius: 4px;
+}
+
+.toggleButton.text {
+  font-size: smaller;
+}
+
+.notifications {
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.notification-text {
+  margin-left: 15%;
+  color: teal;
+  font-size: medium;
+}

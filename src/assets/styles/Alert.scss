@@ -1,0 +1,28 @@
+$alert-background: rgba(0, 80, 80, 0.8);
+$shadow-color: rgba(0, 0, 0, 0.03);
+$font-color: #fff;
+
+.alert {
+  background-color: $alert-background;
+  color: $font-color;
+  border-radius: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 2px 2px $shadow-color;
+  width: 300px;
+  box-sizing: border-box;
+
+  button,
+  button:hover {
+    background-color: transparent;
+    border: 0;
+    color: $font-color;
+    cursor: pointer;
+    font-size: 40px;
+    padding: 0;
+  }
+}

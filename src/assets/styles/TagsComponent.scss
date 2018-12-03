@@ -1,0 +1,71 @@
+#publish-dropdown {
+  position: absolute;
+  width: 500px;
+  top: 15%;
+  left: 60%;
+  z-index: 2000;
+}
+
+#publish-dropdown .show {
+  display: block;
+}
+
+#publish-dropdown .hide {
+  display: none;
+}
+
+ul.collection.publish-card {
+  padding: 10px 20px 0 20px;
+  background-color: white;
+}
+
+.publish-card {
+  height: 200px;
+  position: relative;
+}
+
+#tag-chips {
+  padding-top: 40px;
+}
+
+#tag-chips .col.s12 {
+  margin-top: 10px;
+  margin-left: 110px;
+}
+
+.author-profile {
+  position: absolute;
+  margin-top: 30px;
+}
+
+.author-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+#posted-by {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+.article {
+  margin-top: 60px;
+}
+
+#time-to-read {
+  margin-right: 90px;
+  float: right;
+  font-family: unset;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.stat-body {
+  color: teal;
+}
+
+.stat-body a {
+  color: teal;
+}

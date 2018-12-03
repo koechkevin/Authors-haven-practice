@@ -1,0 +1,36 @@
+span::selection {
+  color: #fff;
+  background: #51ab91;
+}
+
+.highlight {
+  margin-top: 20px;
+}
+
+.highlightComment:focus {
+  visibility: visible;
+}
+
+#highlightMessage {
+  display: none;
+}
+
+.highlighted {
+  color: #51ab91;
+}
+
+.dismiss {
+  margin-left: 20px;
+}
+
+.floating {
+  overflow: visible;
+  position: absolute;
+  z-index: 1000;
+  visibility: visible;
+  left: 20%;
+}
+
+.highlightedComment {
+  color: #51ab91 !important;
+}

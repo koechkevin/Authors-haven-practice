@@ -1,0 +1,14 @@
+.dropdown {
+  position: fixed;
+  top: 60px;
+  right: 100px;
+  z-index: 10000;
+
+  .collection {
+    width: 150px;
+  }
+
+  a {
+    color: teal;
+  }
+}

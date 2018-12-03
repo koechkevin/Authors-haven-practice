@@ -1,0 +1,9 @@
+.empty-slider .slide,
+.empty-slider.slider-wrapper {
+  height: calc(100vh - 64px) !important;
+
+  .nextButton,
+  .previousButton {
+    display: none;
+  }
+}

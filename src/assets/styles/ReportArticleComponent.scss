@@ -1,0 +1,29 @@
+#modal1.modal {
+  width: 40%;
+  padding: 10px;
+
+  .modal-content {
+    width: 100%;
+    padding: 20px;
+  }
+
+  button.btn:nth-of-type(2) {
+    background: transparent;
+    color: #000;
+    float: right;
+  }
+
+  textarea#textarea2.materialize-textarea {
+    padding: 0;
+    margin: 10px;
+    width: 110%;
+  }
+}
+
+.right-buttons {
+  #bookmark {
+    #report-article {
+      right: 4000000px;
+    }
+  }
+}

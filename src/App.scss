@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css?family=Sacramento");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+
+$primary-color: #008080;
+$color-white: #fff;
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+}
+
+nav {
+  background-color: #fff;
+
+  a {
+    color: teal !important;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .nav-wrapper {
+      margin: 0 100px 0 100px;
+    }
+  }
+}
+
+.brand-logo {
+  font-weight: 400;
+  font-size: 40px !important;
+  font-family: "Sacramento", cursive;
+}
+
+@media only screen and (max-width: 670px) {
+  .brand-logo {
+    font-size: 25px !important;
+  }
+}
+
+.btn-primary {
+  background: $primary-color;
+  border: 1px $color-white solid;
+  border-radius: 5px;
+  color: $color-white;
+  cursor: pointer;
+  display: inline-block;
+  height: auto;
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.btn-secondary {
+  background: $color-white;
+  border: 1px $primary-color solid;
+  border-radius: 5px;
+  color: $primary-color;
+  cursor: pointer;
+  display: inline-block;
+  height: auto;
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+  transition: background 500ms ease;
+}
+
+.btn-primary:hover {
+  background-color: #2f4f4f;
+}
+
+.btn-secondary:hover {
+  background-color: #e0ffff;
+}
+
+.fb-button {
+  background-color: #39569a;
+}
+
+.google-button {
+  background-color: #ec412c;
+  margin-right: 5px;
+}
+
+.google-button:hover {
+  background-color: #ca3825;
+}
+
+.fb-button:hover {
+  background-color: #233e7c;
+}
+
+.btn-flat {
+  color: $color-white;
+}
+
+.center-align {
+  padding-bottom: 10px;
+}
+
+.outline_icon {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: teal;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.filled_icon {
+  color: teal;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.like-dislike {
+  color: teal;
+}
+
+#likedislike {
+  top: 225px;
+  position: fixed;
+  right: 105px;
+}
+
+.icon {
+  color: teal;
+}
+
+.count {
+  margin-left: 5px;
+}
+
+.overlay {
+  display: flex;
+  align-items: flex-start;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 1000;
+  padding: 1rem;
+}
+
+.overlay-center {
+  align-items: center;
+
+  .row {
+    display: block;
+    margin-bottom: 0;
+    padding: 0 10px 0 0;
+  }
+}
+
+.custom-modal {
+  padding: 0 10px 0 0;
+
+  .image-wrapper {
+    padding: 0 10px 0 0;
+    margin-right: 20px;
+    margin-bottom: 0;
+    min-height: 420px;
+    width: 150px;
+    background: url("./images/write1.jpg") no-repeat center center;
+    background-size: cover;
+  }
+}
+
+.loader {
+  width: 30px;
+}
+
+.buttonLink {
+  background: none !important;
+  color: $primary-color;
+  border: none;
+  text-transform: none;
+  font-variant: small-caps;
+  padding: 0 !important;
+  cursor: pointer;
+}
+
+.buttonLink:hover {
+  color: $primary-color;
+}
+
+.search {
+  margin-top: 30px;
+
+  input {
+    font-size: 24px !important;
+  }
+
+  .input-field {
+    max-width: 100%;
+  }
+}
+
+.oops-image {
+  width: 200px;
+  margin-left: calc(50% - 100px);
+}
+
+.no-bottom {
+  border-bottom: none;
+}

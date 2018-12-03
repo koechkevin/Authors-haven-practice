@@ -1,0 +1,19 @@
+{
+    "name": "ah-shakas-frontend",
+    "description": "Authors' Haven frontend application",
+    "scripts": {
+      "postdeploy": "yarn build"
+    },
+    "env": {},
+    "formation": {
+      "web": {
+        "quantity": 1
+      }
+    },
+    "addons": [],
+    "buildpacks": [
+      {
+        "url": "mars/create-react-app"
+      }
+    ]
+}
