@@ -17,6 +17,7 @@ import WithHighlightMessage from '../Messages/HighlightMessage';
 import HighlightsComments from './HighlightsCommentsComponent';
 import ReportArticle from '../../containers/Articles/ReportArticlesContainer';
 import '../../assets/styles/ReportArticleComponent.scss';
+import Comment from '../../containers/Comments/CommentContainer';
 
 class ReadUpdateArticleComponent extends React.Component {
   constructor(props) {

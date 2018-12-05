@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'proptypes';
-import { Col, ProgressBar, Row } from 'react-materialize';
-import CommentBlockContainer from '../../containers/Comments/CommentBlockContainer';
+import Comment from '../../containers/Comments/CommentContainer';
 import '../../assets/styles/Comments.scss';
-import authUser from '../../utils/authUser.util';
+import { CreateCommentContainer } from '../../containers/Comments/CommentContainer';
 
 class CommentsComponent extends Component {
   componentWillMount() {
@@ -24,30 +23,24 @@ class CommentsComponent extends Component {
 
   loadingProgress = () => (
     <div className="loader-element" id="progress-bar">
-      <Row>
-        <Col s={12}>
-          <ProgressBar />
-        </Col>
-      </Row>
+      <p />
     </div>
   );
 
   render() {
-    const { payload, slug, commentLike } = this.props;
+    const { payload, slug, commentLike, authorized } = this.props;
     return (
       payload.loading || payload.data.comments === undefined ? this.loadingProgress()
         : (
           <div>
             <h4> Comments</h4>
-            <form id="comment-form" className={`input-field col s11 ${authUser() ? 'visible' : 'hidden'}`} onSubmit={this.onSubmit}>
-              <input type="text" required id="comment-text" name="commentText" className="materialize-textarea" placeholder="Write a comment" onChange={this.onChange} />
-              <input type="submit" value="SUBMIT" className="btn-primary right" />
-            </form>
-            <br />
+            <div className={authorized ? 'visible' : 'hidden'}>
+            <CreateCommentContainer slug={slug}/>
+            </div>
             <div id="comments">
               {payload.data.comments.map(data => (
                 <div key={data.id}>
-                  <CommentBlockContainer
+                  <Comment
                     id={data.id}
                     history={data.history}
                     slug={slug}

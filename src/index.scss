@@ -504,9 +504,10 @@ $article-border-bottom: #ccc;
 .drop {
   position: absolute;
   top: 50px;
-  right: 30px;
-  width: 100px;
+  right: -60px;
+  width: 70px;
   text-align: center;
+  margin-top: -20px;
 
   #card-content {
     padding: 0;

@@ -23,7 +23,6 @@ export const failedFetching = errors => ({
 });
 
 export const getComments = slug => ((dispatch) => {
-  dispatch(fetchComments());
   const url = `/articles/${slug}/comments/`;
   api({
     url,

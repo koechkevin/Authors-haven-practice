@@ -7,6 +7,7 @@ import { postComment } from '../../actions/postComment.action';
 
 export const mapStateToProps = state => ({
   payload: state.getComments,
+  authorized: state.loginReducer.authorized,
 });
 
 export default connect(mapStateToProps,

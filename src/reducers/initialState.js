@@ -1,3 +1,5 @@
+import authUser from "../utils/authUser.util";
+
 export default {
   signUp: {
     loading: false,
@@ -8,6 +10,7 @@ export default {
     onPending: false,
     onFulfilled: false,
     onRejected: false,
+    authorized: !!authUser(),
   },
 
   resetPassword: {

@@ -13,6 +13,7 @@ const loginReducer = (state = initialState.login, action) => {
         onPending: true,
         onRejected: false,
         onFulfilled: false,
+        authorized: false,
       };
     case `${LOGIN}_FULFILLED`:
       return {
@@ -20,6 +21,7 @@ const loginReducer = (state = initialState.login, action) => {
         onRejected: false,
         onFulfilled: true,
         onPending: false,
+        authorized: true,
         data: action.payload,
       };
 
