@@ -24,7 +24,7 @@
     "materialize-css": "^1.0.0",
     "mockjs": "^1.0.1-beta3",
     "node-sass": "^4.9.4",
-    "prismjs": "^1.15.0",
+    "prismjs": "^1.23.0",
     "prop-types": "^15.6.2",
     "proptypes": "^1.1.0",
     "react": "^16.6.0",
